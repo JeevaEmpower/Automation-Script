@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{52BD9F33-291A-4F9B-9949-C7DE75B40D47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{2285AD0D-694D-46D1-B51A-1A0C9B49B85A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{4198A614-4774-4956-BCA7-A75639A428A3}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{194E3F2E-3907-4C55-8B52-2F1ED8867C7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{E4072B06-0415-43E5-8250-218ABBF16A3B}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{BC7B22C2-DDB5-43AD-A909-A0EC271A356B}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{E2E6F988-EF4B-4A3A-A583-EA072C13DA57}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmpowerJeeva", "EmpowerJeeva", "{219DAA22-451D-40FB-BA2E-E6F7DD9CCAA5}"
+	ProjectSection(SolutionItems) = preProject
+		EmpowerJeeva.xml = EmpowerJeeva.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{89DEB4AF-E674-499A-BCE8-6CB404D2DF38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpowerJeeva_1", "EmpowerJeeva_1\EmpowerJeeva_1.csproj", "{2AE0A427-F53C-4E8D-B477-D56DCB69159D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AE0A427-F53C-4E8D-B477-D56DCB69159D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE0A427-F53C-4E8D-B477-D56DCB69159D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE0A427-F53C-4E8D-B477-D56DCB69159D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE0A427-F53C-4E8D-B477-D56DCB69159D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4072B06-0415-43E5-8250-218ABBF16A3B} = {194E3F2E-3907-4C55-8B52-2F1ED8867C7F}
+		{E2E6F988-EF4B-4A3A-A583-EA072C13DA57} = {52BD9F33-291A-4F9B-9949-C7DE75B40D47}
+		{219DAA22-451D-40FB-BA2E-E6F7DD9CCAA5} = {2285AD0D-694D-46D1-B51A-1A0C9B49B85A}
+		{89DEB4AF-E674-499A-BCE8-6CB404D2DF38} = {219DAA22-451D-40FB-BA2E-E6F7DD9CCAA5}
+		{2AE0A427-F53C-4E8D-B477-D56DCB69159D} = {89DEB4AF-E674-499A-BCE8-6CB404D2DF38}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3768A24-BAD0-4443-8742-67D09E1E88C7}
+	EndGlobalSection
+EndGlobal
